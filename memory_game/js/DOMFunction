@@ -1,0 +1,26 @@
+Reading List
+The Wind Up Bird Chronicle
+A Visit From the Goon Squad
+The Flamethrowers
+To Kill a Mockingbird
+Kafka on the Shore
+Chill!
+
+
+//DOM functions replaced the 2nd item in the list 
+document.querySelectorAll('.current')[1].textContent = "The Violent Bear It Away"; 
+//updated the next item(3rd) in the list 
+document.getElementById('next').textContent = "Me Talk Pretty One Day"; 
+//added an item to the list 
+document.querySelector('li').textContent = "Brothers Karamazov"; 
+//replaced the 4th item in the list
+document. getElementsByTagName('li')[3].textContent = "JavaScript is Fun!";
+
+
+Reading List
+BrothersKaramazov
+TheViolentBearItAway
+MeTalkPrettyOneDay
+JavaScriptisFun!
+Kafka on the Shore
+Chill!
